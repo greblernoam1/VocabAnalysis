@@ -1,9 +1,9 @@
 # VocabAnalysis
 Vocabulary Analysis Code:
 
-In the main function of HW7Main.java, read the complete text of the file into a string. Ensure that the read operation is buffered for efficiency. Once you have this working, change it: for even greater efficiency, assemble the text as a StringBuilder (not a String), then convert to a string at the end. Answer the question in comments: Why is this more efficient? You’ll have to research the difference between String and StringBuilder to answer.
+1. In the main function of HW7Main.java, read the complete text of the file into a string. Ensure that the read operation is buffered for efficiency. Once you have this working, change it: for even greater efficiency, assemble the text as a StringBuilder (not a String), then convert to a string at the end. Answer the question in comments: Why is this more efficient? You’ll have to research the difference between String and StringBuilder to answer.
 
-1. Prepare the text for analysis:
+2. Prepare the text for analysis:
 
       a. Convert the text to lower case and try to remove all non-text characters and line breaks. Ideally, all processed text should consist of individual words separated by single spaces, but do not spend much of time perfecting this. You are welcome to borrow example code for this part (and cite your reference), or research regular expressions and write your own.
       b. Split the string into an array of strings in which each element consists of a single word. This is called “tokenization”; each element of the array is a “token”.
