@@ -19,5 +19,4 @@ number of unique stems, about 3900) and print these numbers to the console.
 
 5. Save the results to files in two different formats:
       a. A text file WordCount.txt with each line containing “<stem>: <count>”
-      b. A binary file WordCount.dat containing the (serialized) results. In order to receive credit for this, you must provide a script HW7BinaryRead.java that includes in its
-main method commands that load the data, deserialize it, and print the results to the console.
+      b. A binary file WordCount.dat containing the (serialized) results. In order to receive credit for this, you must provide a script HW7BinaryRead.java that includes in its main method commands that load the data, deserialize it, and print the results to the console.
